@@ -38,7 +38,7 @@
     </script>
 </head>
 
-<body class="h-screen flex items-center justify-center bg-cyan-500 relative overflow-hidden"
+<body class="h-screen flex items-center justify-center bg-blue-500 relative overflow-hidden"
     style="background-image: url('{{ asset('stmik.jpg') }}'))">
 
     <!-- Background Pola (titik-titik) -->
@@ -74,9 +74,9 @@
     </div>
 
     <!-- Card -->
-    <div class="bg-zinc-100 rounded-lg shadow-lg w-full max-w-md md:p-5 p-7  text-center relative z-10">
+    <div class="bg-zinc-100 rounded-lg shadow-lg w-full max-w-md p-8  text-center relative z-10">
         <!-- Logo -->
-        <img src="{{ asset('stmik.jpg') }}" alt="Logo" class="mx-auto w-32 mb-4">
+        <img src="{{ asset('stmik-r.png') }}" alt="Logo" class="mx-auto w-32 mb-4">
 
         <!-- Judul -->
         <h2 class="text-lg font-semibold">SISTEM INFORMASI AKADEMIK</h2>
@@ -86,7 +86,7 @@
         <button
             class="flex items-center justify-center w-full border border-gray-300 py-2 rounded-md mb-4 hover:bg-gray-100 transition">
             <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" class="w-5 h-5 mr-2">
-            <span>Signin with Google</span>
+            <span class="font-semibold">Signin with Google</span>
         </button>
 
         <p class="text-gray-400 text-sm my-4">- OR CREDENTIALS -</p>
@@ -111,10 +111,10 @@
             </div>
 
             <button type="submit"
-                class="w-full bg-blue-700 text-white py-2 rounded-md hover:bg-blue-800 transition">SIGNIN</button>
+                class="w-full bg-blue-800 text-white py-2 rounded-md hover:bg-blue-600 transition">SIGNIN</button>
         </form>
 
-        <p class="text-gray-400 text-xs mt-6">All right reserved 2024</p>
+        <p class="text-gray-400 text-xs mt-6">All right reserved 2025</p>
     </div>
 </body>
 
